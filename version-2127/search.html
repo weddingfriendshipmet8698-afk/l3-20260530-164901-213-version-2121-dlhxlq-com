@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>站内搜索 · 影视合集</title>
+  <meta name="description" content="按片名、类型、地区、年份和简介检索全部影片。" />
+  <meta name="keywords" content="影视合集,静态电影网站,影视库,电影,剧集,动画,排行榜,详情页,在线播放,搜索" />
+  <meta name="theme-color" content="#2a75ff" />
+  <link rel="stylesheet" href="assets/site.css" />
+  <script defer src="assets/hls.min.js"></script>
+  <script defer src="assets/catalog.js"></script>
+  <script defer src="assets/site.js"></script>
+  
+</head>
+<body class="search" data-page="search">
+
+<header class="site-header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">影</span>
+        <span class="brand-name">影视合集</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">首页</a>
+        <a href="library.html">全部影片</a>
+        <a href="rank.html">排行榜</a>
+        <a href="search.html">搜索</a>
+      </nav>
+      <form class="nav-search" action="search.html" method="get">
+        <input name="q" placeholder="搜索影视、年份、类型、地区" />
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </div>
+</header>
+
+<main class="container search-page">
+  <section class="page-head">
+    <div class="breadcrumb"><a href="index.html">首页</a> <span>›</span> <span>搜索</span></div>
+    <h1>站内搜索</h1>
+    <p>输入片名、年份、地区、类型或题材，即可即时检索全部影片。</p>
+  </section>
+  <section class="panel">
+    <div class="search-box">
+      <input data-search-input placeholder="例如：剧情、爱情、2024、中国大陆、悬疑" />
+      <button class="btn" type="button">搜索</button>
+    </div>
+    <div class="hr"></div>
+    <div class="search-result-head">
+      <div>
+        <strong><span data-result-count>0</span> 个结果</strong>
+        <div class="muted" data-result-hint>输入关键词即可检索全部影片标题、类型、地区与简介</div>
+      </div>
+      <div class="pill-row">
+        <a class="chip" href="category/genre-drama.html">剧情</a><a class="chip" href="category/genre-comedy.html">喜剧</a><a class="chip" href="category/genre-suspense.html">悬疑</a><a class="chip" href="category/genre-love.html">爱情</a>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div class="grid" data-search-result></div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container panel">
+    <div class="footer-grid">
+      <div>
+        <h3>影视合集</h3>
+        <p>影视合集以静态页面方式整理 2000 部精选影视内容，支持分类浏览、排行榜、详情页、HLS 播放与站内搜索。</p>
+      </div>
+      <div>
+        <h3>快捷入口</h3>
+        <p><a href="library.html">全部影片</a></p>
+        <p><a href="rank.html">排行榜</a></p>
+        <p><a href="search.html">站内搜索</a></p>
+      </div>
+      <div>
+        <h3>分类入口</h3>
+        
+      </div>
+    </div>
+    <div class="hr"></div>
+    <p>© 2024—2031 影视合集 · 静态整理</p>
+  </div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
